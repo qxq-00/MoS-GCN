@@ -1,22 +1,15 @@
 # General
-This is the official code for YORO - Lightweight End to End Visual Grounding, accepted by European Conference On Computer Vision (ECCV) Workshop on International Challenge on Compositional and Multimodal Perception, Tel-Aviv, Israel, 2022
+This is the code for MoSGCN:Aspect-based sentiment analysis via distance matrix and similarity graph
 
 
 # Evironment
-Use environment/environment.yml or environment/environment_cuda102.yml depending on cuda version for creating the environment.
+Configure the environment required for the project.
+Download spacy's en_core_web_sm language pack
 ```
-conda env create -f environment/environment.yml 
-conda activate yoro
+pip install -r requirements.txt
+cd MoS-GCN
 python -m spacy download en_core_web_sm
 ```
-
-# Datasets
-1. Comment out the dataset in download.sh that is not needed. It takes few hours to download all datasets
-2. Download the dataset to the "./dataset/raw" folder by 
-```
-sh download.sh
-```
-
 
 # Preprocess Dataset
 Converting the raw data to arrow format.
