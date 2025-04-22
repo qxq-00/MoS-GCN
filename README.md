@@ -97,20 +97,3 @@ For ReferItGame/RefClef dataset, we load the pretraining checkpoints as initial 
 ```
 sh script/ReferItGame/run.sh 5 40 1
 ```
-
-## Citation
-If you find this method useful in your research, please cite this article:
-```
-@inproceedings{ho2022yoro,
-  title={YORO-Lightweight End to End Visual Grounding},
-  author={Ho, Chih-Hui and Appalaraju, Srikar and Jasani, Bhavan and Manmatha, R and Vasconcelos, Nuno},
-  booktitle={ECCV 2022 Workshop on International Challenge on Compositional and Multimodal Perception},
-  year={2022}
-}
-```
-
-
-# Acknowledgement
-Please email to Chih-Hui (John) Ho (chh279@eng.ucsd.edu) if further issues are encountered. We heavily used the code from 
-1. https://github.com/dandelin/ViLT
-2. https://github.com/ashkamath/mdetr
